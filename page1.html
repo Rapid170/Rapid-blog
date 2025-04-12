@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux のデスクトップ環境の比較</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('your-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .article-container {
+            background: rgba(255, 255, 255, 0.3);
+            border: 1px solid #333;
+            padding: 20px;
+            margin: 40px auto;
+            width: 90%;
+            max-width: 800px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        article h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        article p {
+            line-height: 1.6;
+        }
+        footer {
+            text-align: center;
+            border-top: 2px solid #333;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .back-link {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .back-link a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .back-link a:hover {
+            color: #00a2e5;
+        }
+        .link-box {
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid black;
+            border-radius: 0;
+            padding: 16px;
+            margin: 20px 0;
+            width: fit-content;
+        }
+        .desktop-link {
+            display: block;
+            width: fit-content;
+            background-color: rgba(255, 255, 255, 0.2);
+            border: 1px solid black;
+            border-radius: 0;
+            padding: 8px 12px;
+            margin-bottom: 8px;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .desktop-link:hover {
+            background-color: rgba(255, 255, 255, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="article-container">
+        <header>
+            <h1>Linux のデスクトップ環境の比較</h1>
+        </header>
+        <article>
+            <h2>Linux のデスクトップ環境の比較</h2>
+            <p>今回の記事は初めての記事ということで代表する Linux のデスクトップ環境の比較をやっていこうと思う。とにかく種類がたくさんあるが今回は有名な KDE,GNOME,Cinnamon,Pantheon,Xfce,Budgie,MATE,DDE,Unity,LXQt を比較していこうと思う。この評価は個人的な部分を含んでいることに注意してほしい。</p>
+            <div class="link-box">
+                <a href="#KDE" class="desktop-link">KDE</a>
+                <a href="#GNOME" class="desktop-link">GNOME</a>
+                <a href="#Cinnamon" class="desktop-link">Cinnamon</a>
+                <a href="#Pantheon" class="desktop-link">Pantheon</a>
+                <a href="#Xfce" class="desktop-link">Xfce</a>
+                <a href="#Budgie" class="desktop-link">Budgie</a>
+                <a href="#MATE" class="desktop-link">MATE</a>
+                <a href="#DDE" class="desktop-link">DDE</a>
+                <a href="#Unity" class="desktop-link">Unity</a>
+                <a href="#LXQt" class="desktop-link">LXQt</a>
+                <a href="#まとめ" class="desktop-link">まとめ</a>
+            </div>
+
+            <h2 id="KDE">KDE</h2>
+<img src="KDE.png" alt="KDE"
+  width="400" />
+            <p>KDE は、フリーなカスタマイズに富んだデスクトップ環境。Kubuntu で初めて触り、現在は Fedora KDE,最新版を試すときは KDE neon で触っているが個人的に GUI でのカスタマイズ性はトップクラスだと思う。KDE アプリは以前は見た目をあまりよく評価していなかったが、現在は統一感がありとても好きだ。多機能なため GNOME よりごちゃごちゃしており、KDE アプリは GNOME アプリより少しマイナスだが、使っていればどこに何があるかがなれてくるため、あまり気にならない。テーマや拡張機能を簡単に追加でき、個人的にはトップクラスのデスクトップ環境だと思った。</p>
+
+            <h2 id="GNOME">GNOME</h2>
+<img src="GNOME.png" alt="GNOME"
+  width="400" />
+            <p>GNOME は、KDE からフリーでない部分(Qt)を除去し、独自のガイドラインが定められているデスクトップ環境。Ubuntuで初めて触った。いまは Fedora、最新版を試すときは GNOME OS で触っているが個人的にデザインの統一感が好きだ。アプリを作るための細かなガイドラインが設定されていて見た目がかなり統一されているだけでなく、開発環境としても最適だと思ったが、いくつかの設定は dconf をいじらないといけなく、GUI でのカスタマイズにはやや制限があると思った。拡張機能はあるがハックであり、GNOME のバージョンアップで使えなくなる可能性があるため。たまにカスタマイズしたい人はいいと思うががっつりカスタマイズして運用していくのには難があると思った。だがアップデートで最新技術に対応したり機能がどんどん増えているので今後に期待しているデスクトップ環境だと思った。</p>
+
+            <h2 id="Cinnamon">Cinnamon</h2>
+<img src="Cinnamon.png" alt="Cinnamon"
+  width="400" />
+            <p>Cinnamon は、Linux Mint で初心者向きにするために作られたデスクトップ環境。Linux Mint の Cinnamon Edition を触っている。個人的にはデスクトップ環境の中でトップクラスに初心者向きだと思う。皆がイメージする Windows に似た見た目と操作感で、テーマの変更や機能の追加も簡単にできる。Linux 初心者には間違いなくおすすめするデスクトップ環境だと思う。</p>
+
+            <h2 id="Pantheon">Pantheon</h2>
+<img src="Pantheon.png" alt="Pantheon"
+  width="400" />
+            <p>Pantheon は、elementary OS で採用されている独自の哲学を持ったデスクトップ環境。elementary OS で少し触ったがほどよく Mac っぽく、ほどよくオリジナリティがあるのが良いと思ったが、個人的には GNOME を超えるメリットを感じなかったため今は使っていない。だが独自の哲学、最小化ボタンがなかったりは個人的に最小化はあまり使わないため気に入っている。</p>
+
+            <h2 id="Xfce">Xfce</h2>
+<img src="Xfce.png" alt="Xfce"
+  width="400" />
+            <p>Xfce は、シンプルなデスクトップ環境。Xubuntu で始めた触ったが、とにかく古い見た目で、あまり使う気にはならない見た目だ、ストアアプリもなく、最新技術をほとんどサポートしておらずアップデートでもあまり変化がない。だが GNOME,KDE などの様々なデスクトップ環境用のアプリを、問題なく動かせて、サードパーティーアプリでのカスタマイズ性がかなり高いため、自分好みなシステムにしていきたい人にはぴったりだと思った。</p>
+
+            <h2 id="Budgie">Budgie</h2>
+<img src="Budgie.png" alt="Budgie"
+  width="400" />
+            <p>Budgie は Solus で採用されていて他のディストリビューションにも移植されているデスクトップ環境。Ubuntu Budgie で初めて触ったが、個人的にあまり目を引く要素はなかった。サイドバーも GNOME,KDE などの拡張機能で再現でき、カスタマイズ性もほぼないため、個人的に使うメリットは感じなかった。だがカスタマイズが面倒くさい人には初期状態からデザインがよく、いいと思うが、カスタマイズをして楽しみたい人には向いていないと思った。</p>
+
+            <h2 id="MATE">MATE</h2>
+<img src="MATE.png" alt="MATE"
+  width="400" />
+            <p>MATE は、GNOME 2 のフォーク。操作感を体験できるため、たまに触りたくなるが、長期的に触ると飽きてきて、Xfce と同じくストアアプリがなく、最新技術のサポートも優れていないため、全体的に Xfce と似ていると感じた。だがたまに触りたくなるため VirtualBox 上で Fedora MATE+Compiz を動かしている。</p>
+
+            <h2 id="DDE">DDE</h2>
+<img src="DDE.png" alt="DDE"
+  width="400" />
+            <p>DDE は Deepin Linux,UbuntuDDEで採用されているデスクトップ環境。Deepin Linux で初めて触ったが、個人的には初期状態での見た目は良いが、サードパーティーアプリを使うと見た目が汚くなるし、カスタマイズの幅も狭いので Bad。それなら KDEをカスタマイズしてそれっぽい見た目にした方が統一感ある。</p>
+
+            <h2 id="Unity">Unity</h2>
+<img src="Unity.png" alt="Unity"
+  width="400" />
+            <p>Unity は Ubuntu に元々採用されていたデスクトップ環境。現在は Ubuntu Unity で触ることができる。Unity はこのサイトの見た目からわかるとおり 2010 年代のデザインが好きな僕にとっては、とても好きなデザイン。ただカスタマイズ性が低く、操作方法が少し独特なので、使う人を選びそうなデスクトップ環境だと思った。</p>
+
+            <h2 id="LXQt">LXQt</h2>
+<img src="LXQt.png" alt="LXQt"
+  width="400" />
+            <p>LXQt は、個人的に軽さを求めたウィンドウマネージャ風のデスクトップ環境。個人的に古いパソコンをリユースするために使うことはないが、どのデスクトップ環境も動作が遅い場合の最終手段としてなら使ってもいいかもしれない。</p>
+            <h2 id="まとめ">まとめ</h2>
+            <p>結果的に、自分がデスクトップ環境に何を求めるかで決めればいいと思うが、迷ったときは、Linux 初心者は Cinnamon,自分好みにカスタマイズしたい場合は KDE,開発環境なら GNOME が良いと思った。</p>
+        </article>
+        <div class="back-link">
+            <a href="index.html">← Back to Home</a> 
+        </div>
+        <footer>
+            <p>&copy; 2025 My Blog</p>
+        </footer>
+    </div>
+</body>
+</html>
